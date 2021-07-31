@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat-black", sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+  height: 700px;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  width: 85%;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.img1 {
+  transform: rotate(15deg);
+  width: 60%;
+
+  position: relative;
+  top: 50px;
+  left: 100px;
+  z-index: 1;
+}
+
+.row h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+.navbar-brand {
+  font-size: 4rem;
+}
+#features {
+  padding: 7% 15%;
+  padding-top: 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.box {
+  text-align: center;
+}
+.box h3 {
+  font-weight: bold;
+}
+.box p {
+  font-weight: 600;
+}
+i:hover {
+  color: palevioletred !important;
+}
+#testimonials {
+  text-align: center;
+  background-color: lightcoral;
+  color: #fff;
+}
+.img-2 {
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: lightcoral;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.presss {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+#best {
+  font-weight: bold;
+
+  padding: 0 7%;
+}
+.card h2 {
+  font-weight: 1000;
+}
+.card h3 {
+  font-weight: 1000;
+}
+@media (max-width: 1028px) {
+  .img1 {
+    position: static;
+    transform: rotate(0);
+    height: 600px;
+    width: 350px;
+    padding-top: 50px;
+  }
+  #title {
+    text-align: center;
+    padding-bottom: 1000px;
+  }
+}
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  margin-top: 50px;
+}
+#cta h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 10% 30% 10% 30%;
+}
+#cta button {
+  position: relative;
+  bottom: 120px;
+  margin: 10px;
+}
+footer {
+  text-align: center;
+  padding-top: 80px;
+}
+footer i {
+  padding: 15px;
+}
+.card-header {
+  color: #ff4c68;
+}
